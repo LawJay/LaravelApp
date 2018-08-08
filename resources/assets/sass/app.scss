@@ -1,14 +1,30 @@
 
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
+//@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 // Variables
 @import "variables";
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+
+
+
 .navbar-laravel {
-  background-color: #fff;
+  background-color: #8EE4AF;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #05386B;
+  background-color: #8EE4AF;
+}
+a{
+  color:black;
+}
+body{
+
+  font-family: 'Titillium Web', sans-serif;
 }

@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+    <div id="employees" style="margin: 0 auto; padding-left: 10%">
     <h3>Employees</h3>
 
     @if(count($employees) > 0)
@@ -21,5 +22,6 @@
     @endif
     <div class="text-center">
         {!! $employees->links() !!}
+    </div>
     </div>
 @endsection

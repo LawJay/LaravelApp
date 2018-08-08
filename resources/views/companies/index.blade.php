@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+    <div id="companies" style="margin: 0 auto; padding-left: 10%">
     <h3>Companies</h3>
     @if(count($companies) > 0)
         @foreach($companies as $company)
@@ -28,5 +29,6 @@
     @endif
     <div class="text-center">
         {!! $companies->links() !!}
+    </div>
     </div>
 @endsection

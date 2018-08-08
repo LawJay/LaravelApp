@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <a href="/Lara/public/employees" class="btn btn-default">Go Back</a>
+    <a href="/Lara/public/companies" class="btn btn-default">Go Back</a>
     <h3>{{$company->Name}}
 
 
@@ -9,7 +9,7 @@
         <ul class="list-group">
             <li class="list-group-item"> Email: {{$company->Email}}</li>
             <li class="list-group-item">
-                <img src="{{$company->Logo}}" height="250px" width="250px" alt="Company Logo"></li>
+                <img src="{{$company->Logo}}" height="100%" width="20%" alt="Company Logo"></li>
             <li class="list-group-item">  Website : <a href="{{$company->Website}}">Click here</a> </li>
         </ul>
     </div>
